@@ -1,0 +1,18 @@
+{
+    "name": "jaitik/contact",
+    "description": "simple contact form package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jaitik Valand",
+            "email": "jaitik.valand@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jaitik\\Contact\\": "src/"
+        }
+    }
+}
