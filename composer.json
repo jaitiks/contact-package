@@ -2,6 +2,7 @@
     "name": "jaitik/contact",
     "description": "simple contact form package",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jaitik Valand",
@@ -13,6 +14,13 @@
     "autoload": {
         "psr-4": {
             "Jaitik\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jaitik\\Contact\\ContactServiceProvider"
+            ]
         }
     }
 }
